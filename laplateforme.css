@@ -175,6 +175,9 @@ border-radius: 20%;
 }
 
 
+
+
+
 footer{background-color: rgb(226, 25, 109);
     padding-top: 50px;
     padding-bottom: 50px;
@@ -577,4 +580,477 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 2%;
+}
+
+/* ---------TOTO GAME-------- */
+
+
+.TDbody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.TDmain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     margin-right: 300px;
+    margin-left: 300px; 
+    background-color:rgb(73, 112, 180);
+}
+
+.TDsidebar h1{
+    color:white
+}
+
+.TDsidebar p{
+    font-weight: 400;
+    color:rgb(212, 203, 255)
+}
+
+.TDsidebar h4{
+    color:rgb(149, 174,201)
+}
+
+.header{
+    flex-basis: 100%;
+    background-color: seashell;
+    padding-bottom: 30px;   
+}
+
+nav{display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.l_s_navi{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-right: 3%;
+}
+
+.l_s_logoplate {display: flex;
+    align-items: baseline;
+    padding-bottom: 1%;
+    margin-left: 5%;
+}
+.TDcontent{
+    flex-basis: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.TDcontent a{
+   
+/*     display:flex;
+    justify-content: center; */
+    text-align: center;
+    background-color: rgb(255,202,75);
+    
+    border-radius: 30px;
+    color:white;
+    padding: 10px;
+    place-items: center;
+}
+
+.TDcontentF a{
+   
+         display:flex;
+        justify-content: center;
+        background-color: rgb(255,202,75);
+        
+        border-radius: 30px;
+        color:white;
+        padding: 10px;
+        place-items: center;
+        text-decoration:none;
+    }
+
+.TDlink {
+    margin-top: 20px;
+    place-items: center;
+    text-align: center;
+}
+ 
+  .TDcontent .TDvideo1{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+/* .content iframe{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+.TDsidebar{
+    flex-basis: 50%; 
+    margin-top: 80px;
+   
+}
+
+.footer{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    background-color: wheat;
+}
+
+.TDtotgrille {
+    flex-direction: row;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+
+.TDgrille p{
+    flex-basis: 30%;
+}
+
+
+.TDinscription{
+    margin-right: 300px;
+    margin-left: 300px; 
+    flex-direction: row;
+    display: flex;
+    flex-basis: 100%;
+    }
+
+.TDinscription p{
+    margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 300px; 
+}
+
+
+
+.TDcontentF{
+    margin-right: 300px;
+    margin-left: 300px; 
+        flex-direction: row;
+        display: flex;
+        flex-basis: 100%;
+        margin: 10px;
+        }
+
+.TDcontentF a{
+    margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 300px; 
+}
+
+.TDcontentF a:hover{
+    width: 30%;
+}
+
+
+.TDfinal{
+    margin-right: 300px;
+    margin-left: 300px; 
+            flex-direction: row;
+            display: flex;
+            flex-basis: 100%;
+            }
+        
+.TDfinal p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color:rgb(212, 203, 255)
+}
+
+
+@media screen and (max-width: 700px){
+    .TDcontent{
+        flex-basis: 100%;
+    }
+    .TDsidebar{
+        flex-basis: 50%;
+        order: 1;
+    }
+    .TDfooter{
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .TDsidebar{
+        flex-basis: 100%;
+        order: 1;
+    }
+    .TDsecondary{
+        background-color: #f00;
+    }
+}
+
+
+
+
+/*
+    POLICE D'ECRITURE et background
+*/
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* greek-ext */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKcw72j00.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+  /* greek */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKfA72j00.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKcQ72j00.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  /*
+      STYLE DE BASE
+  */
+  .TDbody, html{
+      line-height: 1.6;  
+      padding: 0;
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+      background-color:rgb(73, 112, 180);
+  }
+  
+  
+ ul li{
+    font-weight: 8;
+    list-style-type: disc;
+ }
+
+.TDtxtC>li{
+    font-weight: 8;
+}
+
+ 
+  
+  /* .grille{
+    background-color: #95a2ea;
+  } */
+  
+  .TDgrille{
+      margin-top: 50px;
+    background-color: rgb(255, 255, 255);   
+  }
+
+  .TDtxtC{
+    padding: 50px;
+  }
+
+  .TDtxtC img{
+padding-left: 70px;
+  }
+
+  .TDphotoC{
+      margin-top:30px;
+   margin-left: 80px;
+  }
+
+  .TDphotoC2{
+    margin-top:30px;
+    margin-left: 150px;
+   }
+
+   .TDphotoC3{
+    margin-top:30px;
+    margin-left: 120px;
+   }
+
+  .TDgrille2{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+     margin-left: 70px;
+    
+  }
+
+  .TDgrille3{
+    margin-top: 50px;
+      background-color: rgb(255, 255, 255);
+      display:flex;
+       margin-left: 70px;
+    
+ 
+  }
+  
+  
+  .TDinscription{
+    
+    display:flex;
+    margin-left: 10px;
+   
+  } 
+
+
+  .TDinscription p{
+    font-weight: 400;
+    color:rgb(212, 203, 255)
+}
+
+.title-inovlab {
+    color: white;
+    font-size: 2rem;
+}
+
+.titreh1j {
+    color: yellow;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.titreh2j {
+    color: yellow;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.titreh3j {
+    color: yellow;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.titreh4j {
+    color: yellow;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.titreh5j {
+    color: yellow;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.titreh6j {
+    color: yellow;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.textsection1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.textsection2 {
+    color: rgb(31, 29, 29);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.textsection6 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#boxx {
+    display: flex;
+    flex-direction: row;
+}
+
+.titrelist1 {
+    color: rgb(180, 172, 172);
+    font-size: 1.5rem;
+}
+
+.titrelist2 {
+    color: rgb(180, 172, 172);
+    font-size: 1.5rem;
+}
+
+.endtitre1 {
+    grid-area: text;
+    color: rgb(180, 172, 172);
+    font-size: 1.5rem;
+}
+
+.titreh5j {
+    text-align: center;
+}
+
+.list3 {
+    grid-area: text;
+}
+
+#box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section3 {
+    background-color: white;
+    border-radius: 18px;
+}
+
+.section4 {
+    background-color: white;
+    border-radius: 18px;
+}
+
+#section5 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.list1 {
+    grid-area: text;
+    margin: 25px;
+}
+
+.buttonend {
+    text-align: center;
 }
